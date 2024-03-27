@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_stops_stops",
+  "info": {
+    "displayName": "Stops"
+  },
+  "options": {},
+  "attributes": {
+    "station": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::station.station"
+    },
+    "scheduled_arrival_time": {
+      "type": "datetime"
+    }
+  }
+}

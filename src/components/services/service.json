@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_services_services",
+  "info": {
+    "displayName": "Service",
+    "icon": "filter"
+  },
+  "options": {},
+  "attributes": {
+    "origin_station": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::station.station"
+    },
+    "stop": {
+      "displayName": "Stops",
+      "type": "component",
+      "repeatable": true,
+      "component": "stops.stops"
+    },
+    "headcode": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::business.business"
+    }
+  }
+}

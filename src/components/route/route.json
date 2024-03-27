@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_route_routes",
+  "info": {
+    "displayName": "Route",
+    "icon": "filter"
+  },
+  "options": {},
+  "attributes": {
+    "origin_station": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::station.station"
+    }
+  }
+}

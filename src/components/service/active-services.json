@@ -1,0 +1,9 @@
+{
+  "collectionName": "components_service_active_services",
+  "info": {
+    "displayName": "Active Services",
+    "icon": "train"
+  },
+  "options": {},
+  "attributes": {}
+}

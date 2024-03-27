@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "seats",
+  "info": {
+    "singularName": "seat",
+    "pluralName": "seats",
+    "displayName": "Seat"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "row": {
+      "type": "string"
+    },
+    "number": {
+      "type": "integer"
+    }
+  }
+}

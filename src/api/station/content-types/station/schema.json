@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stations",
+  "info": {
+    "singularName": "station",
+    "pluralName": "stations",
+    "displayName": "Station"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "station_code": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "kilometers_to_next_down_station": {
+      "type": "decimal"
+    },
+    "kiliometers_to_next_up_station": {
+      "type": "decimal"
+    }
+  }
+}

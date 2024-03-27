@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_train_config_onboard_hub_configurations",
+  "info": {
+    "displayName": "Onboard Hub Configuration",
+    "icon": "train",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "landing_page": {
+      "displayName": "Landing Page",
+      "type": "component",
+      "repeatable": false,
+      "component": "train-config.landing-page"
+    },
+    "main_menu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "train-config.onboard-hub-general-page"
+    }
+  }
+}

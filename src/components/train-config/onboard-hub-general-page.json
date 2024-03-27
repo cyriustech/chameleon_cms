@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_train_config_onboard_hub_general_pages",
+  "info": {
+    "displayName": "Onboard Hub General Page",
+    "icon": "chartBubble"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "enabled": {
+      "type": "boolean"
+    },
+    "metadata": {
+      "type": "string"
+    }
+  }
+}

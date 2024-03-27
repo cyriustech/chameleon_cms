@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trains",
+  "info": {
+    "singularName": "train",
+    "pluralName": "trains",
+    "displayName": "Train",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "train_class": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::train-class.train-class"
+    },
+    "customer_hub_configuration": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "admin::user"
+    }
+  }
+}

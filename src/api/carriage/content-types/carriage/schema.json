@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "carriages",
+  "info": {
+    "singularName": "carriage",
+    "pluralName": "carriages",
+    "displayName": "carriage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "total_standard_seats": {
+      "type": "integer"
+    },
+    "total_wheelchair_spaces": {
+      "type": "integer"
+    },
+    "total_bike_spaces": {
+      "type": "integer"
+    },
+    "total_first_class_seats": {
+      "type": "integer"
+    },
+    "has_toilet": {
+      "type": "boolean"
+    },
+    "has_catering": {
+      "type": "boolean"
+    },
+    "manufacturer": {
+      "type": "string"
+    },
+    "maximum_luggage_spaces": {
+      "type": "integer"
+    }
+  }
+}

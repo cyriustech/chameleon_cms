@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_operations_disruption_notices",
+  "info": {
+    "displayName": "Disruption Notice",
+    "icon": "connector",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "disruption_start": {
+      "type": "datetime"
+    },
+    "disruption_expected_end": {
+      "type": "datetime"
+    },
+    "attached_images": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Active": {
+      "type": "boolean"
+    },
+    "affected_services": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "admin::user"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

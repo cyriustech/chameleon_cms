@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "train_classes",
+  "info": {
+    "singularName": "train-class",
+    "pluralName": "train-classes",
+    "displayName": "Train Class",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "efficiency": {
+      "type": "decimal"
+    },
+    "fuel_type": {
+      "type": "enumeration",
+      "enum": [
+        "Electric",
+        "Hybrid",
+        "Diesel"
+      ]
+    },
+    "top_speed": {
+      "type": "decimal"
+    },
+    "manufacturer": {
+      "type": "string"
+    },
+    "introduced": {
+      "type": "date"
+    }
+  }
+}

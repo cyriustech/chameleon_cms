@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "active_services",
+  "info": {
+    "singularName": "active-service",
+    "pluralName": "active-services",
+    "displayName": "Active Service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "planned_service": {
+      "displayName": "Active Services",
+      "type": "component",
+      "repeatable": false,
+      "component": "service.active-services"
+    }
+  }
+}

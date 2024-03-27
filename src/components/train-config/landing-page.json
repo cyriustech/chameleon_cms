@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_train_config_landing_pages",
+  "info": {
+    "displayName": "Onboard Hub Landing Page",
+    "icon": "arrowDown",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "onboarding_enabled": {
+      "type": "boolean"
+    }
+  }
+}
