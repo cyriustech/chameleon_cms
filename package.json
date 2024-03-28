@@ -17,10 +17,10 @@
     "react-router-dom": "5.3.4",
     "styled-components": "5.3.3"
   },
-  "name": "my-app-name",
+  "name": "chameleon-cms",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -28,7 +28,7 @@
     "strapi": "strapi"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Andy Temperley"
   },
   "strapi": {
     "template": "blog"
