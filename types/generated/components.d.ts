@@ -30,7 +30,7 @@ export interface OperationsDisruptionNotice extends Schema.Component {
     disruption_expected_end: Attribute.DateTime;
     attached_images: Attribute.Media;
     Active: Attribute.Boolean;
-    affected_services: Attribute.Relation<
+    affected: Attribute.Relation<
       'operations.disruption-notice',
       'oneToOne',
       'admin::user'

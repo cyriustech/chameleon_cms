@@ -16,7 +16,11 @@ module.exports = ({ env }) => ({
       ssl: {
         rejectUnauthorized: false,
       },
+      schema: env('DATABASE_SCHEMA', 'public'), // Set schema here
     },
       debug: false,
+  },
+  settings: {
+    forceMigration: false,
   },
 });

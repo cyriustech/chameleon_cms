@@ -1,16 +1,16 @@
 "use strict";
 
-const fs = require("fs-extra");
-const path = require("path");
-const mime = require("mime-types");
-const set = require("lodash.set");
-const {
-  categories,
-  authors,
-  articles,
-  global,
-  about,
-} = require("../data/data.json");
+// const fs = require("fs-extra");
+// const path = require("path");
+// const mime = require("mime-types");
+// const set = require("lodash.set");
+// const {
+//   categories,
+//   authors,
+//   articles,
+//   global,
+//   about,
+// } = require("../data/data.json");
 
 async function isFirstRun() {
   const pluginStore = strapi.store({

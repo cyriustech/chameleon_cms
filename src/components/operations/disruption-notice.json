@@ -30,7 +30,7 @@
     "Active": {
       "type": "boolean"
     },
-    "affected_services": {
+    "affected": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "admin::user"
